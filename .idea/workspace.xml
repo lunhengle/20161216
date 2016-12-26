@@ -1441,7 +1441,7 @@
       <workItem from="1482480966756" duration="23000" />
       <workItem from="1482480995820" duration="4627000" />
       <workItem from="1482485633922" duration="5731000" />
-      <workItem from="1482741350765" duration="7253000" />
+      <workItem from="1482741350765" duration="7259000" />
     </task>
     <task id="LOCAL-00001" summary="添加 jdbc 分页">
       <created>1482748547504</created>
@@ -1471,7 +1471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482748614985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加 jdbc 分页">
+      <created>1482748621393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1482748621393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1507,7 +1514,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85232000" />
+    <option name="totallyTimeSpent" value="85238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
