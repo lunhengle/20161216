@@ -1,8 +1,9 @@
 package com.lhl.utils20161216.orm.jdbc;
 
-import com.lhl.utils20161216.bean.User;
+import com.lhl.utils20161216.bean.jdbc.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lunhengle on 2016/12/23.
@@ -16,6 +17,14 @@ public interface UserDao {
      * @return 用户
      */
     User getUser(int id);
+
+    /**
+     * 得到用户.
+     *
+     * @param id id
+     * @return 用户
+     */
+    Map<String, Object> getUserMap(int id);
 
     /**
      * 根据用户id和名字获取用户.
@@ -32,6 +41,24 @@ public interface UserDao {
      * @return 用户列表
      */
     List<User> getUserList();
+
+    /**
+     * 分页获取用户列表.
+     *
+     * @param count    当前多少页
+     * @param pageSize 一页多少条
+     * @return 用户列表
+     */
+    List<User> getUserListPage(int count, int pageSize);
+
+    /**
+     * 获取user list.
+     *
+     * @param username 名字
+     * @return 返回 user list
+     */
+    List<Map<String, Object>> getUsersList(String username);
+
 
     /**
      * 更新用户.

@@ -1,15 +1,20 @@
 package com.lhl.utils20161216.orm.jdbc.impl;
 
-import com.lhl.utils20161216.bean.User;
+import com.lhl.utils20161216.bean.jdbc.Page;
+import com.lhl.utils20161216.bean.jdbc.User;
 import com.lhl.utils20161216.orm.jdbc.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lunhengle on 2016/12/23.
@@ -38,6 +43,17 @@ public class UserDaoImpl implements UserDao {
                 return user;
             }
         });
+    }
+
+    /**
+     * 得到用户.
+     *
+     * @param id id
+     * @return 用户
+     */
+    @Override
+    public Map<String, Object> getUserMap(int id) {
+        return jdbcTemplate.queryForMap("SELECT * FROM USER WHERE ID = ?", new Object[]{id});
     }
 
     /**
@@ -78,6 +94,49 @@ public class UserDaoImpl implements UserDao {
                 return user;
             }
         });
+    }
+
+    /**
+     * 分页获取用户列表.
+     *
+     * @param count    当前多少页
+     * @param pageSize 一页多少条
+     * @return 用户列表
+     */
+    @Override
+    public List<User> getUserListPage(int count, final int pageSize) {
+        String sqlCount = "SELECT COUNT(1) FROM USER";
+        int rowTotal = jdbcTemplate.queryForObject(sqlCount, Integer.class);
+        final Page page = new Page(rowTotal, count, pageSize);
+        return jdbcTemplate.query("SELECT * FROM USER ", new Object[]{}, new ResultSetExtractor<List<User>>() {
+            @Override
+            public List<User> extractData(ResultSet rs) throws SQLException, DataAccessException {
+                int currentRow = 0;
+                List<User> userList = new ArrayList<>();
+                while (rs.next() && currentRow < page.getEndIndex()) {
+                    if (currentRow >= page.getBeginIndex()) {
+                        User user = new User();
+                        user.setId(rs.getInt("ID"));
+                        user.setUsername(rs.getString("USERNAME"));
+                        user.setPassword(rs.getString("PASSWORD"));
+                        userList.add(user);
+                    }
+                    currentRow++;
+                }
+                return userList;
+            }
+        });
+    }
+
+    /**
+     * 获取user list.
+     *
+     * @param username 名字
+     * @return 返回 user list
+     */
+    @Override
+    public List<Map<String, Object>> getUsersList(final String username) {
+        return jdbcTemplate.queryForList("SELECT * FROM USER WHERE USERNAME LIKE ?", new Object[]{"%" + username + "%"});
     }
 
     /**

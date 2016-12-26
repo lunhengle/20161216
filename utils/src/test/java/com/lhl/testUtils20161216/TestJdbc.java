@@ -1,8 +1,7 @@
 package com.lhl.testUtils20161216;
 
-import com.lhl.utils20161216.bean.User;
+import com.lhl.utils20161216.bean.jdbc.User;
 import com.lhl.utils20161216.orm.jdbc.UserDao;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -12,6 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lunhengle on 2016/12/23.
@@ -33,6 +33,15 @@ public class TestJdbc {
     }
 
     /**
+     * 得到用户.
+     */
+    @Test
+    public void testGetUserMap() {
+        Map<String, Object> map = userDao.getUserMap(1);
+        logger.info("id = " + map.get("ID") + " username = " + map.get("USERNAME") + " PASSWORD = " + map.get("PASSWORD"));
+    }
+
+    /**
      * 获取单个用户
      */
     @Test
@@ -49,6 +58,17 @@ public class TestJdbc {
         List<User> userList = userDao.getUserList();
         for (User user : userList) {
             logger.info("id = " + user.getId() + " username = " + user.getUsername() + " password = " + user.getPassword());
+        }
+    }
+
+    /**
+     * 获取用户.
+     */
+    @Test
+    public void testGetUserList() {
+        List<Map<String, Object>> list = userDao.getUsersList("测试");
+        for (Map<String, Object> map : list) {
+            logger.info("id = " + map.get("ID") + " username = " + map.get("USERNAME") + " password = " + map.get("PASSWORD"));
         }
     }
 
@@ -87,5 +107,16 @@ public class TestJdbc {
         User user = userDao.getUser(1);
         logger.info("id = " + user.getId() + " username = " + user.getUsername() + " password = " + user.getPassword());
         userDao.deleteUser(1);
+    }
+
+    /**
+     * 测试分页.
+     */
+    @Test
+    public void testListUserPage() {
+        List<User> userList = userDao.getUserListPage(1, 6);
+        for (User user : userList) {
+            logger.info(" id = " + user.getId() + " username = " + user.getUsername() + " password = " + user.getPassword());
+        }
     }
 }

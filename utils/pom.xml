@@ -48,5 +48,12 @@
             <version>${h2.version}</version>
         </dependency>
         <!--引入数据库驱动 end-->
+        <!--spring data jpa start-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>1.10.6.RELEASE</version>
+        </dependency>
+        <!--spring data jpa end-->
     </dependencies>
 </project>

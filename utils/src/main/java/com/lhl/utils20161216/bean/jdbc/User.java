@@ -1,4 +1,4 @@
-package com.lhl.utils20161216.bean;
+package com.lhl.utils20161216.bean.jdbc;
 
 /**
  * Created by lunhengle on 2016/12/23.
