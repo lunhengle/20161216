@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+    <!--配置扫描-->
+    <context:component-scan base-package="com.lhl.utils20161216.bean.jpa,com.lhl.utils20161216.orm.jpa"/>
+    <!--配置内存数据源-->
+    <jdbc:embedded-database id="datasource" type="H2">
+        <jdbc:script location="h2/sql/schema.sql"/>
+        <jdbc:script location="h2/data/import-data.sql"/>
+    </jdbc:embedded-database>
+    <!--定义实体工厂bean-->
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+    <!--配置 事务-->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+    </bean>
+    <!--添加对jpa命名空间的支持-->
+    <jpa:repositories base-package="com.lhl.utils20161216.orm.jpa" entity-manager-factory-ref="entityManagerFactory" transaction-manager-ref="transactionManager">
+    </jpa:repositories>
+</beans>

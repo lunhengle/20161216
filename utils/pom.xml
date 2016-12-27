@@ -12,26 +12,28 @@
     <artifactId>utils</artifactId>
 
     <properties>
-        <logback-version>1.0.11</logback-version>
-        <slf4j-version>1.7.13</slf4j-version>
+        <logback.version>1.0.11</logback.version>
+        <slf4j.version>1.7.13</slf4j.version>
         <h2.version>1.4.180</h2.version>
+        <spring.data.version>1.10.2.RELEASE</spring.data.version>
+        <hibernate.version>5.2.5.Final</hibernate.version>
     </properties>
     <dependencies>
         <!--日志 start-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>${logback-version}</version>
+            <version>${logback.version}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>${logback-version}</version>
+            <version>${logback.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4j-version}</version>
+            <version>${slf4j.version}</version>
         </dependency>
         <!--日志 end-->
         <!--引入jdbc start-->
@@ -50,10 +52,26 @@
         <!--引入数据库驱动 end-->
         <!--spring data jpa start-->
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>${spring.data.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
-            <version>1.10.6.RELEASE</version>
+            <version>${spring.data.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
         </dependency>
         <!--spring data jpa end-->
+        <!--hibernate start-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
     </dependencies>
 </project>

@@ -7,7 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f03380-417c-4966-bb01-a4fb223a9d40" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_10_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDaoIface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base.iml" afterPath="$PROJECT_DIR$/base/base.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/pom.xml" afterPath="$PROJECT_DIR$/utils/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.iml" afterPath="$PROJECT_DIR$/utils/utils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservice/webservice.iml" afterPath="$PROJECT_DIR$/webservice/webservice.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_data_jpa_1_10_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" />
     </list>
     <ignored path="20161216.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,64 +73,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1972#2354#0" expanded="true" />
-                <element signature="e#2353#2354#0" expanded="true" />
-                <element signature="e#2547#2929#0" expanded="true" />
-                <element signature="e#2928#2929#0" expanded="true" />
-                <element signature="e#3410#4207#0" expanded="true" />
-                <element signature="e#4206#4207#0" expanded="true" />
-                <element signature="e#4401#4402#0" expanded="true" />
-                <element signature="e#4529#4530#0" expanded="true" />
-                <marker date="1482747653626" expanded="true" signature="968:999" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="1593:1624" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="1893:1941" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="2509:2527" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="3169:3194" ph="SELECT COUNT... USER" />
-                <marker date="1482747653626" expanded="true" signature="3372:3390" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="4445:4485" ph="SELECT * FRO... USER" />
-                <marker date="1482747653626" expanded="true" signature="4673:4714" ph="UPDATE USER " />
-                <marker date="1482747653626" expanded="true" signature="4911:4965" ph="INSERT INTO USER... " />
-                <marker date="1482747653626" expanded="true" signature="5182:5210" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultSetExtractor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/ResultSetExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowMapper.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="114">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,191 +89,86 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MAVEN/com.lhl:utils:1.0-SNAPSHOT" pinned="false" current-in-tab="true">
-        <entry file="uml://MAVEN/com.lhl:utils:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>com.lhl:utils:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="0.0" y="420.0">com.lhl:utils:1.0-SNAPSHOT</node>
-                <node x="141.5" y="0.0">ch.qos.logback:logback-core:jar:1.0.11</node>
-                <node x="136.0" y="70.0">ch.qos.logback:logback-classic:jar:1.0.11</node>
-                <node x="157.5" y="140.0">org.slf4j:slf4j-api:jar:1.7.13</node>
-                <node x="147.0" y="210.0">org.springframework:spring-jdbc:jar:4.2.6.RELEASE</node>
-                <node x="365.5" y="210.0">org.springframework:spring-jdbc:jar:4.2.6.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE</node>
-                <node x="173.5" y="280.0">com.h2database:h2:jar:1.4.180</node>
-                <node x="135.0" y="350.0">org.springframework:spring-data-jpa:jar:1.10.6.RELEASE</node>
-                <node x="168.5" y="420.0">junit:junit:jar:4.11</node>
-                <node x="349.5" y="420.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-                <node x="146.5" y="490.0">org.springframework:spring-core:jar:4.2.6.RELEASE</node>
-                <node x="338.0" y="490.0">org.springframework:spring-core:jar:4.2.6.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-                <node x="138.5" y="560.0">org.springframework:spring-context:jar:4.2.6.RELEASE</node>
-                <node x="339.0" y="560.0">org.springframework:spring-context:jar:4.2.6.RELEASE/org.springframework:spring-expression:jar:4.2.6.RELEASE</node>
-                <node x="142.0" y="630.0">org.springframework:spring-beans:jar:4.2.6.RELEASE</node>
-                <node x="148.0" y="700.0">org.springframework:spring-aop:jar:4.2.6.RELEASE</node>
-                <node x="358.5" y="700.0">org.springframework:spring-aop:jar:4.2.6.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-                <node x="147.5" y="770.0">org.springframework:spring-web:jar:4.2.6.RELEASE</node>
-                <node x="149.0" y="840.0">org.springframework:spring-test:jar:4.2.6.RELEASE</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="2.307692307692321" />
-                  <point x="-50.0" y="-0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.2.6.RELEASE" target="org.springframework:spring-context:jar:4.2.6.RELEASE/org.springframework:spring-expression:jar:4.2.6.RELEASE">
-                  <point x="58.0" y="-0.0" />
-                  <point x="-68.5" y="-0.0" />
-                </edge>
-                <edge source="org.springframework:spring-core:jar:4.2.6.RELEASE" target="org.springframework:spring-core:jar:4.2.6.RELEASE/commons-logging:commons-logging:jar:1.2">
-                  <point x="50.0" y="-0.0" />
-                  <point x="-69.5" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="9.230769230769226" />
-                  <point x="135.0" y="715.0" />
-                  <point x="-48.5" y="-0.0" />
-                </edge>
-                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="28.0" y="-0.0" />
-                  <point x="-58.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-                  <point x="27.5" y="-0.0" />
-                  <point x="-28.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.0.11">
-                  <point x="27.5" y="-11.538461538461547" />
-                  <point x="-60.5" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="com.h2database:h2:jar:1.4.180">
-                  <point x="27.5" y="-4.615384615384642" />
-                  <point x="135.0" y="295.0" />
-                  <point x="-23.0" y="-0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jdbc:jar:4.2.6.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.6.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE">
-                  <point x="49.5" y="-0.0" />
-                  <point x="-42.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="13.846153846153868" />
-                  <point x="135.0" y="855.0" />
-                  <point x="-47.5" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="11.538461538461547" />
-                  <point x="135.0" y="785.0" />
-                  <point x="-49.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.13">
-                  <point x="27.5" y="-9.230769230769226" />
-                  <point x="135.0" y="155.0" />
-                  <point x="-39.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="4.615384615384642" />
-                  <point x="-58.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="-6.923076923076906" />
-                  <point x="-49.5" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-data-jpa:jar:1.10.6.RELEASE">
-                  <point x="27.5" y="-2.307692307692321" />
-                  <point x="-61.5" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.6.RELEASE">
-                  <point x="27.5" y="6.923076923076906" />
-                  <point x="-54.5" y="-0.0" />
-                </edge>
-                <edge source="org.springframework:spring-aop:jar:4.2.6.RELEASE" target="org.springframework:spring-aop:jar:4.2.6.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="48.5" y="-0.0" />
-                  <point x="-49.0" y="-0.0" />
-                </edge>
-                <edge source="com.lhl:utils:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.0.11">
-                  <point x="27.5" y="-13.846153846153868" />
-                  <point x="-55.0" y="-0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.9741573033707865" x="237.79469434832754" y="415.0" />
-              <SelectedNodes />
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="692" column="0" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="76">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1856#1857#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#1986#1987#0" expanded="true" />
-                <element signature="e#2020#2021#0" expanded="true" />
-                <element signature="e#2054#2055#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
-                <element signature="e#2180#2181#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2288#2289#0" expanded="true" />
-                <element signature="e#2328#2329#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJdbc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJdbc.java">
+      <file leaf-file-name="UserDaoIface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDaoIface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
+            <state relative-caret-position="266">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaRepository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestJpa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="122" selection-start-line="28" selection-start-column="122" selection-end-line="28" selection-end-column="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-jdbc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jdbc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-jpa.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -324,11 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/Test.java" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/lhl/webservice20161216/vo/Person.java" />
-        <option value="$PROJECT_DIR$/webservice/src/main/java/com/lhl/webservice20161216/server/impl/HelloWorldImpl.java" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/com/lhl/webservice20161216/server/PersonWs.java" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/com/lhl/webservice20161216/server/impl/PersonWsImpl.java" />
         <option value="$PROJECT_DIR$/webservice/src/main/java/com/lhl/webservice20161216/server/ProductWs.java" />
@@ -374,6 +246,11 @@
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJdbc.java" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java" />
+        <option value="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDao.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDaoIface.java" />
         <option value="$PROJECT_DIR$/utils/pom.xml" />
       </list>
     </option>
@@ -434,6 +311,34 @@
           <option name="myItemId" value="utils" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.hibernate:hibernate-entitymanager:5.2.5.Final" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="api" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
@@ -468,6 +373,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -502,15 +409,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24077046" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -534,7 +439,7 @@
       <recent name="D:\IdeaProject\20161216\base\src\main\resources\spring\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestJdbc.testListUserPage">
+  <component name="RunManager" selected="JUnit.TestJpa.testGetUsers">
     <configuration default="false" name="TestJdbc.testGetUserByIdAndUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -548,32 +453,6 @@
       <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
       <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestJdbc" />
       <option name="METHOD_NAME" value="testGetUserByIdAndUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestJdbc.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
-      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestJdbc" />
-      <option name="METHOD_NAME" value="testDeleteUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -652,6 +531,32 @@
       <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
       <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestJdbc" />
       <option name="METHOD_NAME" value="testListUserPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJpa.testGetUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
+      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestJpa" />
+      <option name="METHOD_NAME" value="testGetUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1407,18 +1312,18 @@
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.20161216" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.webservice" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserByIdAndUsername" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestJdbc.testDeleteUser" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserList" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserMap" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestJdbc.testListUserPage" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserList" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserMap" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.TestJdbc.testListUserPage" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestJpa.testGetUsers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestJdbc.testListUserPage" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserMap" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserByIdAndUsername" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestJdbc.testDeleteUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestJpa.testGetUsers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestJdbc.testListUserPage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserMap" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestJdbc.testGetUserByIdAndUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -1441,7 +1346,9 @@
       <workItem from="1482480966756" duration="23000" />
       <workItem from="1482480995820" duration="4627000" />
       <workItem from="1482485633922" duration="5731000" />
-      <workItem from="1482741350765" duration="7282000" />
+      <workItem from="1482741350765" duration="7958000" />
+      <workItem from="1482827286588" duration="2426000" />
+      <workItem from="1482830267173" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="添加 jdbc 分页">
       <created>1482748547504</created>
@@ -1485,7 +1392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482748627845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加 jdbc 分页">
+      <created>1482748676631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1482748676631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1521,17 +1435,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85261000" />
+    <option name="totallyTimeSpent" value="92334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155844" sideWeight="0.21162046" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17270789" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1540,7 +1455,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41170096" sideWeight="0.7835821" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20562771" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20476706" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1549,15 +1464,15 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27292112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1567,7 +1482,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155844" sideWeight="0.21162046" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1577,7 +1492,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41170096" sideWeight="0.7835821" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20562771" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20476706" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1587,9 +1502,9 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27292112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3107676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1627,66 +1542,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webservice/src/test/java/com/lhl/testWebservice20161216/TestHelloWorldClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice/src/main/resources/spring/ws/applicationContext-ws-client.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webservice/src/main/resources/spring/ws/applicationContext-ws-server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-rt-rs-client/3.1.9/cxf-rt-rs-client-3.1.9.jar!/org/apache/cxf/jaxrs/client/AbstractClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="876" column="28" selection-start-line="876" selection-start-column="22" selection-end-line="876" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-rt-frontend-jaxrs/3.1.9/cxf-rt-frontend-jaxrs-3.1.9.jar!/schemas/jaxrs.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-rt-rs-client/3.1.9/cxf-rt-rs-client-3.1.9.jar!/org/apache/cxf/jaxrs/client/WebClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9120">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-core/3.1.9/cxf-core-3.1.9.jar!/org/apache/cxf/interceptor/LoggingInInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webservice/src/main/resources/spring/rs/applicationContext-rs-client.xml" />
     <entry file="file://$PROJECT_DIR$/webservice/src/main/resources/spring/rs/applicationContext-rs-server.xml" />
     <entry file="file://$PROJECT_DIR$/webservice/pom.xml">
@@ -1707,9 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1804,7 +1656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,7 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1841,7 +1691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1849,22 +1698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1875,19 +1708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/data/import-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/src/main/java/com/lhl/base20161216/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1895,17 +1719,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="608">
           <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,55 +1733,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-          <folding>
-            <element signature="e#2598#2599#0" expanded="false" />
-            <element signature="e#2623#2624#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/ResultSetExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="589">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="11400">
           <caret line="692" column="0" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
+        <state relative-caret-position="1995">
           <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="0">
           <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1972#2354#0" expanded="true" />
-            <element signature="e#2353#2354#0" expanded="true" />
-            <element signature="e#2547#2929#0" expanded="true" />
-            <element signature="e#2928#2929#0" expanded="true" />
-            <element signature="e#3410#4207#0" expanded="true" />
-            <element signature="e#4206#4207#0" expanded="true" />
-            <element signature="e#4401#4402#0" expanded="true" />
-            <element signature="e#4529#4530#0" expanded="true" />
+            <element signature="e#4642#4643#0" expanded="false" />
+            <element signature="e#4770#4771#0" expanded="false" />
+            <element signature="e#4880#4881#0" expanded="false" />
+            <element signature="e#5041#5042#0" expanded="false" />
+            <element signature="e#5151#5152#0" expanded="false" />
+            <element signature="e#5236#5237#0" expanded="false" />
             <marker date="1482747653626" expanded="true" signature="968:999" ph="SELECT * FRO... USER" />
             <marker date="1482747653626" expanded="true" signature="1593:1624" ph="SELECT * FRO... USER" />
             <marker date="1482747653626" expanded="true" signature="1893:1941" ph="SELECT * FRO... USER" />
@@ -1978,58 +1787,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="1026">
           <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="false" />
+            <element signature="e#1527#1528#0" expanded="false" />
+            <element signature="e#1572#1573#0" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1675#1676#0" expanded="false" />
+            <element signature="e#1720#1721#0" expanded="false" />
+            <element signature="e#1760#1761#0" expanded="false" />
+            <element signature="e#1789#1790#0" expanded="false" />
+            <element signature="e#1817#1818#0" expanded="false" />
+            <element signature="e#1856#1857#0" expanded="false" />
+            <element signature="e#1890#1891#0" expanded="false" />
+            <element signature="e#1919#1920#0" expanded="false" />
+            <element signature="e#1947#1948#0" expanded="false" />
+            <element signature="e#1986#1987#0" expanded="false" />
+            <element signature="e#2020#2021#0" expanded="false" />
+            <element signature="e#2054#2055#0" expanded="false" />
+            <element signature="e#2087#2088#0" expanded="false" />
+            <element signature="e#2136#2137#0" expanded="false" />
+            <element signature="e#2180#2181#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2243#2244#0" expanded="false" />
+            <element signature="e#2288#2289#0" expanded="false" />
+            <element signature="e#2328#2329#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/data/import-data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java">
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="-1982">
+          <caret line="211" column="24" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -2039,43 +1847,52 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.lhl:utils:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="0.0" y="420.0">com.lhl:utils:1.0-SNAPSHOT</node>
+            <node x="0.0" y="567.2031772575249">com.lhl:utils:1.0-SNAPSHOT</node>
             <node x="141.5" y="0.0">ch.qos.logback:logback-core:jar:1.0.11</node>
             <node x="136.0" y="70.0">ch.qos.logback:logback-classic:jar:1.0.11</node>
             <node x="157.5" y="140.0">org.slf4j:slf4j-api:jar:1.7.13</node>
             <node x="147.0" y="210.0">org.springframework:spring-jdbc:jar:4.2.6.RELEASE</node>
-            <node x="365.5" y="210.0">org.springframework:spring-jdbc:jar:4.2.6.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE</node>
-            <node x="173.5" y="280.0">com.h2database:h2:jar:1.4.180</node>
-            <node x="135.0" y="350.0">org.springframework:spring-data-jpa:jar:1.10.6.RELEASE</node>
-            <node x="168.5" y="420.0">junit:junit:jar:4.11</node>
-            <node x="349.5" y="420.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="146.5" y="490.0">org.springframework:spring-core:jar:4.2.6.RELEASE</node>
-            <node x="338.0" y="490.0">org.springframework:spring-core:jar:4.2.6.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="138.5" y="560.0">org.springframework:spring-context:jar:4.2.6.RELEASE</node>
-            <node x="339.0" y="560.0">org.springframework:spring-context:jar:4.2.6.RELEASE/org.springframework:spring-expression:jar:4.2.6.RELEASE</node>
-            <node x="142.0" y="630.0">org.springframework:spring-beans:jar:4.2.6.RELEASE</node>
-            <node x="148.0" y="700.0">org.springframework:spring-aop:jar:4.2.6.RELEASE</node>
-            <node x="358.5" y="700.0">org.springframework:spring-aop:jar:4.2.6.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="147.5" y="770.0">org.springframework:spring-web:jar:4.2.6.RELEASE</node>
-            <node x="149.0" y="840.0">org.springframework:spring-test:jar:4.2.6.RELEASE</node>
+            <node x="377.0" y="210.0">org.springframework:spring-jdbc:jar:4.2.6.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE</node>
+            <node x="173.5" y="320.32817725752494">com.h2database:h2:jar:1.4.180</node>
+            <node x="135.0" y="392.20317725752494">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE</node>
+            <node x="338.0" y="287.20317725752494">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE</node>
+            <node x="370.0" y="357.20317725752494">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE</node>
+            <node x="378.0" y="427.20317725752494">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
+            <node x="367.5" y="497.20317725752494">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="168.5" y="567.2031772575249">junit:junit:jar:4.11</node>
+            <node x="361.0" y="567.2031772575249">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="146.5" y="637.2031772575249">org.springframework:spring-core:jar:4.2.6.RELEASE</node>
+            <node x="349.5" y="637.2031772575249">org.springframework:spring-core:jar:4.2.6.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="138.5" y="707.2031772575249">org.springframework:spring-context:jar:4.2.6.RELEASE</node>
+            <node x="350.5" y="707.2031772575249">org.springframework:spring-context:jar:4.2.6.RELEASE/org.springframework:spring-expression:jar:4.2.6.RELEASE</node>
+            <node x="142.0" y="777.2031772575249">org.springframework:spring-beans:jar:4.2.6.RELEASE</node>
+            <node x="148.0" y="847.2031772575249">org.springframework:spring-aop:jar:4.2.6.RELEASE</node>
+            <node x="370.0" y="847.2031772575249">org.springframework:spring-aop:jar:4.2.6.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="147.5" y="917.2031772575249">org.springframework:spring-web:jar:4.2.6.RELEASE</node>
+            <node x="149.0" y="987.2031772575249">org.springframework:spring-test:jar:4.2.6.RELEASE</node>
           </nodes>
           <notes />
           <edges>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.2.6.RELEASE">
-              <point x="27.5" y="2.307692307692321" />
+              <point x="27.5" y="2.307692307692264" />
               <point x="-50.0" y="-0.0" />
             </edge>
             <edge source="org.springframework:spring-context:jar:4.2.6.RELEASE" target="org.springframework:spring-context:jar:4.2.6.RELEASE/org.springframework:spring-expression:jar:4.2.6.RELEASE">
               <point x="58.0" y="-0.0" />
               <point x="-68.5" y="-0.0" />
             </edge>
+            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE">
+              <point x="61.5" y="-3.75" />
+              <point x="338.0" y="372.20317725752494" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
             <edge source="org.springframework:spring-core:jar:4.2.6.RELEASE" target="org.springframework:spring-core:jar:4.2.6.RELEASE/commons-logging:commons-logging:jar:1.2">
               <point x="50.0" y="-0.0" />
               <point x="-69.5" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.2.6.RELEASE">
-              <point x="27.5" y="9.230769230769226" />
-              <point x="135.0" y="715.0" />
+              <point x="27.5" y="9.230769230769283" />
+              <point x="135.0" y="862.2031772575249" />
               <point x="-48.5" y="-0.0" />
             </edge>
             <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
@@ -2086,13 +1903,22 @@
               <point x="27.5" y="-0.0" />
               <point x="-28.0" y="-0.0" />
             </edge>
+            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9">
+              <point x="61.5" y="3.75" />
+              <point x="338.0" y="442.20317725752494" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE">
+              <point x="27.5" y="-2.307692307692264" />
+              <point x="-61.5" y="-0.0" />
+            </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.0.11">
               <point x="27.5" y="-11.538461538461547" />
               <point x="-60.5" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="com.h2database:h2:jar:1.4.180">
               <point x="27.5" y="-4.615384615384642" />
-              <point x="135.0" y="295.0" />
+              <point x="135.0" y="335.32817725752494" />
               <point x="-23.0" y="-0.0" />
             </edge>
             <edge source="org.springframework:spring-jdbc:jar:4.2.6.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.6.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE">
@@ -2100,17 +1926,17 @@
               <point x="-42.0" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.2.6.RELEASE">
-              <point x="27.5" y="13.846153846153868" />
-              <point x="135.0" y="855.0" />
+              <point x="27.5" y="13.846153846153811" />
+              <point x="135.0" y="1002.2031772575249" />
               <point x="-47.5" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.2.6.RELEASE">
               <point x="27.5" y="11.538461538461547" />
-              <point x="135.0" y="785.0" />
+              <point x="135.0" y="932.2031772575249" />
               <point x="-49.0" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.13">
-              <point x="27.5" y="-9.230769230769226" />
+              <point x="27.5" y="-9.230769230769283" />
               <point x="135.0" y="155.0" />
               <point x="-39.0" y="-0.0" />
             </edge>
@@ -2118,13 +1944,18 @@
               <point x="27.5" y="4.615384615384642" />
               <point x="-58.0" y="-0.0" />
             </edge>
+            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE">
+              <point x="61.5" y="-11.25" />
+              <point x="-81.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21">
+              <point x="61.5" y="11.25" />
+              <point x="338.0" y="512.2031772575249" />
+              <point x="-51.5" y="-0.0" />
+            </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.6.RELEASE">
               <point x="27.5" y="-6.923076923076906" />
               <point x="-49.5" y="-0.0" />
-            </edge>
-            <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-data-jpa:jar:1.10.6.RELEASE">
-              <point x="27.5" y="-2.307692307692321" />
-              <point x="-61.5" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.6.RELEASE">
               <point x="27.5" y="6.923076923076906" />
@@ -2135,14 +1966,115 @@
               <point x="-49.0" y="-0.0" />
             </edge>
             <edge source="com.lhl:utils:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.0.11">
-              <point x="27.5" y="-13.846153846153868" />
+              <point x="27.5" y="-13.846153846153811" />
               <point x="-55.0" y="-0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9741573033707865" x="237.79469434832754" y="415.0" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.8352601156069365" x="-369.0" y="257.0" />
+          <SelectedNodes>
+            <node>org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
+          </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE.jar!/org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE.jar!/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="122" selection-start-line="28" selection-start-column="122" selection-end-line="28" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.2.RELEASE/spring-data-jpa-1.10.2.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDaoIface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2200,7 +2132,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|base</last-edited>
+          <last-edited>utils</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
