@@ -1,7 +1,7 @@
 package com.lhl.testUtils20161216;
 
 import com.lhl.utils20161216.bean.jpa.User;
-import com.lhl.utils20161216.orm.jpa.UserDaoIface;
+import com.lhl.utils20161216.orm.jpa.UserDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -20,11 +20,11 @@ import java.util.List;
 public class TestJpa {
     private static Logger logger = LoggerFactory.getLogger(TestJpa.class);
     @Autowired
-    private UserDaoIface userDaoIface;
+    private UserDao userDaoJpa;
 
     @Test
     public void testGetUsers() {
-        List<User> userList = userDaoIface.getUsers();
+        List<User> userList = userDaoJpa.getUsers();
         for (User user : userList) {
             logger.info("id = " + user.getId() + " username = " + user.getUsername() + " password = " + user.getPassword());
         }

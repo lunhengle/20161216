@@ -1,11 +1,21 @@
 package com.lhl.utils20161216.bean.jpa;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * Created by lunhengle on 2016/12/26.
  */
+@Entity
+@Table(name = "USER")
 public class User {
+    @Id
     private int id;
+    @Column(name = "username")
     private String username;
+    @Column(name = "password")
     private String password;
 
     public int getId() {

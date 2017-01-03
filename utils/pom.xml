@@ -15,8 +15,8 @@
         <logback.version>1.0.11</logback.version>
         <slf4j.version>1.7.13</slf4j.version>
         <h2.version>1.4.180</h2.version>
-        <spring.data.version>1.10.2.RELEASE</spring.data.version>
-        <hibernate.version>5.2.5.Final</hibernate.version>
+        <spring.data.version>1.10.4.RELEASE</spring.data.version>
+        <hibernate.version>4.3.6.Final</hibernate.version>
     </properties>
     <dependencies>
         <!--日志 start-->
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-commons</artifactId>
-            <version>${spring.data.version}</version>
+            <version>1.12.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -68,6 +68,11 @@
         </dependency>
         <!--spring data jpa end-->
         <!--hibernate start-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
