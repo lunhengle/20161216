@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f03380-417c-4966-bb01-a4fb223a9d40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/PageTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/hi/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/hi/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-hibernate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestHibernate.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-hiberante.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/base.iml" afterPath="$PROJECT_DIR$/base/base.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/pom.xml" afterPath="$PROJECT_DIR$/utils/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDao.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql" afterPath="$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml" afterPath="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java" afterPath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestJpa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.iml" afterPath="$PROJECT_DIR$/utils/utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservice/webservice.iml" afterPath="$PROJECT_DIR$/webservice/webservice.iml" />
     </list>
     <ignored path="20161216.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +45,8 @@
       <file leaf-file-name="TestHibernate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+            <state relative-caret-position="244">
+              <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1268,7 +1249,7 @@
       <workItem from="1483080374220" duration="155000" />
       <workItem from="1483427161328" duration="175000" />
       <workItem from="1483428121419" duration="2608000" />
-      <workItem from="1483430812446" duration="36401000" />
+      <workItem from="1483430812446" duration="36437000" />
     </task>
     <task id="LOCAL-00001" summary="添加 jdbc 分页">
       <created>1482748547504</created>
@@ -1333,7 +1314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483439839255</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加 hibernate">
+      <created>1483526317652</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1483526317652</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1369,7 +1357,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134371000" />
+    <option name="totallyTimeSpent" value="134407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1457,7 +1445,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加 jdbc 分页" />
     <MESSAGE value="修改 jpa" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 jpa" />
+    <MESSAGE value="添加 hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 hibernate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2386,8 +2375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+        <state relative-caret-position="244">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
