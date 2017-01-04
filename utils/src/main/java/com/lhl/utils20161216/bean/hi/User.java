@@ -1,9 +1,10 @@
-package com.lhl.utils20161216.bean.jpa;
+package com.lhl.utils20161216.bean.hi;
+
 
 import javax.persistence.*;
 
 /**
- * Created by lunhengle on 2016/12/26.
+ * Created by lunhengle on 2017/1/3.
  */
 @Entity
 @Table(name = "USER")
@@ -11,9 +12,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "username")
+    @Column(name = "USERNAME")
     private String username;
-    @Column(name = "password")
+    @Column(name = "PASSWORD")
     private String password;
 
     public int getId() {
