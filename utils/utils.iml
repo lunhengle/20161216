@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-jdbc.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-jpa.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-hibernate.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-mybatis.xml</file>
         </fileset>
       </configuration>
     </facet>

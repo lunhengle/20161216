@@ -23,6 +23,15 @@
         <include refid="baseSql"/>
         FROM USER WHERE ID=#{ID,jdbcType=INTEGER}
     </select>
+    <!--用户in-->
+    <select id="getUserInIds" resultMap="baseResultMap" parameterType="java.util.List">
+        SELECT
+        <include refid="baseSql"/>
+        FROM USER WHERE ID IN
+        <foreach collection="list" open="(" close=")" separator="," item="i" index="index">
+            #{i}
+        </foreach>
+    </select>
     <!--根据id和用户名获取用户-->
     <select id="getUserByIdAndUsername" resultMap="baseResultMap">
         SELECT
@@ -30,4 +39,46 @@
         FROM USER
         WHERE ID=#{ID,jdbcType=INTEGER} AND USERNAME=#{USERNAME,jdbcType=VARCHAR}
     </select>
+    <!--根据id更新用户名-->
+    <update id="updateUserById">
+        UPDATE USER SET USERNAME=#{0} WHERE ID=#{1}
+    </update>
+    <!--更新User对象-->
+    <update id="updateUser" parameterType="com.lhl.utils20161216.bean.mb.User">
+        UPDATE USER
+        <set>
+            <if test="username!=null">
+                USERNAME=#{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password!=null">
+                PASSWORD =#{password,jdbcType=VARCHAR}
+            </if>
+        </set>
+        WHERE ID=#{id,jdbcType=VARCHAR}
+    </update>
+    <!--更新list user 对象-->
+    <update id="updateUserList" parameterType="java.util.List">
+        UPDATE USER
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix="username = case" suffix="end,">
+                <foreach collection="list" item="i" index="index">
+                    <if test="i.username!=null">
+                        WHEN USERNAME=#{i.username,jdbcType=VARCHAR}
+                        THEN #{i.username}
+                    </if>
+                </foreach>
+            </trim>
+        </trim>
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix="password = case" suffix="end,">
+                <foreach collection="list" item="i" index="index">
+                    <if test="i.password!=null">
+                        WHEN PASSWORD=#{i.password,jdbcType=VARCHAR}
+                        THEN #{i.password}
+                    </if>
+                </foreach>
+            </trim>
+        </trim>
+        WHERE ID=#{i.id,jdbcType=INTEGER}
+    </update>
 </mapper>

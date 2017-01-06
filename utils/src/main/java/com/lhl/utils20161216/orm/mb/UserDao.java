@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lunhengle on 2017/1/5.
@@ -35,4 +36,34 @@ public interface UserDao {
      * @return 用户
      */
     User getUserByIdAndUsername(@Param("ID") int id, @Param("USERNAME") String username);
+
+    /**
+     * 根据用户id更新用户名.
+     *
+     * @param username 用户名
+     * @param id       用户id
+     */
+    void updateUserById(String username, int id);
+
+    /**
+     * 更新用户.
+     *
+     * @param user 用户
+     */
+    void updateUser(User user);
+
+    /**
+     * 更新用户list.
+     *
+     * @param userList 用户list
+     */
+    void updateUserList(List<User> userList);
+
+    /**
+     * 根据ID获取user列表.
+     *
+     * @param list 用户 id list
+     * @return user列表
+     */
+    List<User> getUserInIds(List list);
 }
