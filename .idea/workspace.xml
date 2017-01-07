@@ -11,7 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/mb/UserDao.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/mb/UserDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/resources/mybatis/User.xml" afterPath="$PROJECT_DIR$/utils/src/main/resources/mybatis/User.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java" afterPath="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.iml" afterPath="$PROJECT_DIR$/utils/utils.iml" />
     </list>
     <ignored path="20161216.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,53 +55,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/src/main/resources/mybatis/User.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="-399">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
-                <marker date="1483699281382" expanded="true" signature="682:741" ph="SELECT FROM USER" />
-                <marker date="1483699281382" expanded="true" signature="682:748" ph="SELECT FROM USER... " />
-                <marker date="1483699281382" expanded="true" signature="876:967" ph="SELECT FROM USER" />
-                <marker date="1483699281382" expanded="true" signature="1094:1159" ph="SELECT FROM USER" />
-                <marker date="1483699281382" expanded="true" signature="1407:1548" ph="SELECT FROM USER" />
-                <marker date="1483699281382" expanded="true" signature="1625:1640" ph="UPDATE USER " />
-                <marker date="1483699281382" expanded="true" signature="1625:1668" ph="UPDATE USER " />
-                <marker date="1483699281382" expanded="true" signature="1791:2095" ph="UPDATE USER " />
-                <marker date="1483699281382" expanded="true" signature="2208:3107" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="682:741" ph="SELECT FROM USER" />
+                <marker date="1483762122309" expanded="true" signature="682:748" ph="SELECT FROM USER... " />
+                <marker date="1483762122309" expanded="true" signature="876:967" ph="SELECT FROM USER" />
+                <marker date="1483762122309" expanded="true" signature="1094:1159" ph="SELECT FROM USER" />
+                <marker date="1483762122309" expanded="true" signature="1407:1548" ph="SELECT FROM USER" />
+                <marker date="1483762122309" expanded="true" signature="1625:1640" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="1625:1668" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="1791:2095" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="2208:3125" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="2208:3126" ph="UPDATE USER " />
+                <marker date="1483762122309" expanded="true" signature="3310:3353" ph="INSERT INTO " />
+                <marker date="1483762122309" expanded="true" signature="3310:3421" ph="INSERT INTO " />
+                <marker date="1483762122309" expanded="true" signature="3526:3562" ph="INSERT INTO USER... " />
+                <marker date="1483762122309" expanded="true" signature="3526:3569" ph="INSERT INTO USER... " />
+                <marker date="1483762122309" expanded="true" signature="3854:3902" ph="DELETE FROM " />
+                <marker date="1483762122309" expanded="true" signature="4005:4033" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/logback.xml">
+      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <marker date="1483760359861" expanded="true" signature="0:120" ph="CREATE TABLE... USER" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback-test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/logback-test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import-data.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/data/import-data.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/hi/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding>
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#2996#2997#0" expanded="true" />
+                <element signature="e#3075#3076#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1634">
+              <caret line="35" column="96" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
+              <folding>
+                <element signature="e#1020#1402#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <marker date="1482747653626" expanded="true" signature="968:999" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="1593:1624" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="1893:1941" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="2509:2527" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="3169:3194" ph="SELECT COUNT... USER" />
+                <marker date="1482747653626" expanded="true" signature="3372:3390" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="4445:4485" ph="SELECT * FRO... USER" />
+                <marker date="1482747653626" expanded="true" signature="4673:4714" ph="UPDATE USER " />
+                <marker date="1482747653626" expanded="true" signature="4911:4965" ph="INSERT INTO USER... " />
+                <marker date="1482747653626" expanded="true" signature="5182:5210" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -121,8 +163,8 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/mb/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="67" column="37" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="348">
+              <caret line="94" column="23" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,31 +175,11 @@
       <file leaf-file-name="TestMybatis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+            <state relative-caret-position="234">
+              <caret line="169" column="45" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcType.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.1/mybatis-3.2.1.jar!/org/apache/ibatis/type/JdbcType.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-hibernate.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-hibernate.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -226,7 +248,6 @@
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDaoIface.java" />
         <option value="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-hiberante.xml" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/User.java" />
-        <option value="$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql" />
         <option value="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-jpa.xml" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jpa/UserDao.java" />
@@ -241,9 +262,10 @@
         <option value="$PROJECT_DIR$/utils/pom.xml" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/mb/User.java" />
         <option value="$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-mybatis.xml" />
-        <option value="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/mb/UserDao.java" />
         <option value="$PROJECT_DIR$/utils/src/main/resources/mybatis/User.xml" />
+        <option value="$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java" />
       </list>
     </option>
   </component>
@@ -344,111 +366,7 @@
       <recent name="D:\IdeaProject\20161216\utils\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMybatis.testUpdateUserList">
-    <configuration default="false" name="TestMybatis.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
-      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
-      <option name="METHOD_NAME" value="testGetUserById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMybatis.testGetUserByIdAndUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
-      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
-      <option name="METHOD_NAME" value="testGetUserByIdAndUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMybatis.testUpdateUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
-      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
-      <option name="METHOD_NAME" value="testUpdateUserById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMybatis.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="utils" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
-      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
-      <option name="METHOD_NAME" value="testUpdateUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestMybatis.testDeleteUserList">
     <configuration default="false" name="TestMybatis.testUpdateUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -462,6 +380,110 @@
       <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
       <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
       <option name="METHOD_NAME" value="testUpdateUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMybatis.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
+      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
+      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMybatis.testInsertUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
+      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
+      <option name="METHOD_NAME" value="testInsertUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMybatis.testDeleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
+      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
+      <option name="METHOD_NAME" value="testDeleteUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMybatis.testDeleteUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lhl.testUtils20161216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="utils" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lhl.testUtils20161216" />
+      <option name="MAIN_CLASS_NAME" value="com.lhl.testUtils20161216.TestMybatis" />
+      <option name="METHOD_NAME" value="testDeleteUserList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1216,19 +1238,19 @@
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.api" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.20161216" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.webservice" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestMybatis.testGetUserById" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestMybatis.testGetUserByIdAndUsername" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserById" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUser" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserList" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestMybatis.testInsertUser" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestMybatis.testInsertUserList" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.TestMybatis.testDeleteUserById" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestMybatis.testDeleteUserList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserById" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMybatis.testGetUserByIdAndUsername" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestMybatis.testGetUserById" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestMybatis.testDeleteUserList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMybatis.testDeleteUserById" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMybatis.testInsertUserList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMybatis.testInsertUser" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestMybatis.testUpdateUserList" />
       </list>
     </recent_temporary>
   </component>
@@ -1262,7 +1284,7 @@
       <workItem from="1483428121419" duration="2608000" />
       <workItem from="1483430812446" duration="37086000" />
       <workItem from="1483607693888" duration="5117000" />
-      <workItem from="1483693181710" duration="6132000" />
+      <workItem from="1483693181710" duration="15095000" />
     </task>
     <task id="LOCAL-00001" summary="添加 jdbc 分页">
       <created>1482748547504</created>
@@ -1355,43 +1377,50 @@
       <option name="project" value="LOCAL" />
       <updated>1483613579237</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加 mybatis">
+      <created>1483699471384</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1483699471384</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 27m 20s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testDeleteUserById - 2017.01.07 at 12h 03m 18s.xml">
+      <configuration name="TestMybatis.testDeleteUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 27m 41s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testDeleteUserList - 2017.01.07 at 12h 08m 17s.xml">
+      <configuration name="TestMybatis.testDeleteUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 28m 00s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testDeleteUserList - 2017.01.07 at 12h 08m 47s.xml">
+      <configuration name="TestMybatis.testDeleteUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 30m 01s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testDeleteUserList - 2017.01.07 at 12h 09m 29s.xml">
+      <configuration name="TestMybatis.testDeleteUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 30m 38s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 55m 48s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 31m 22s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 56m 20s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 33m 26s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 57m 52s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 34m 53s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 58m 09s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 37m 55s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 58m 19s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMybatis_testUpdateUserList - 2017.01.06 at 18h 41m 23s.xml">
-      <configuration name="TestMybatis.testUpdateUserList" configurationId="JUnit" />
+    <history-entry file="TestMybatis_testInsertUserList - 2017.01.07 at 11h 58m 35s.xml">
+      <configuration name="TestMybatis.testInsertUserList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146305000" />
+    <option name="totallyTimeSpent" value="155268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1399,7 +1428,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336945" sideWeight="0.21481876" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49729145" sideWeight="0.118336886" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1415,7 +1444,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336945" sideWeight="0.7851812" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49945828" sideWeight="0.8816631" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1436,7 +1465,7 @@
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155844" sideWeight="0.21162046" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49729145" sideWeight="0.118336886" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1455,11 +1484,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3672806" sideWeight="0.78837955" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49945828" sideWeight="0.8816631" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1502,14 +1531,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2085,13 +2106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.10.4.RELEASE/spring-data-jpa-1.10.4.RELEASE.jar!/org/springframework/data/jpa/repository/Query.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2131,14 +2145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
           <caret line="59" column="71" selection-start-line="59" selection-start-column="71" selection-end-line="59" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2194,31 +2200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="35" column="96" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
-          <folding>
-            <element signature="e#1020#1402#0" expanded="false" />
-            <element signature="e#1401#1402#0" expanded="false" />
-            <element signature="e#2547#2929#0" expanded="false" />
-            <element signature="e#2928#2929#0" expanded="false" />
-            <element signature="e#4401#4402#0" expanded="false" />
-            <element signature="e#4529#4530#0" expanded="false" />
-            <marker date="1482747653626" expanded="true" signature="968:999" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="1593:1624" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="1893:1941" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="2509:2527" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="3169:3194" ph="SELECT COUNT... USER" />
-            <marker date="1482747653626" expanded="true" signature="3372:3390" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="4445:4485" ph="SELECT * FRO... USER" />
-            <marker date="1482747653626" expanded="true" signature="4673:4714" ph="UPDATE USER " />
-            <marker date="1482747653626" expanded="true" signature="4911:4965" ph="INSERT INTO USER... " />
-            <marker date="1482747653626" expanded="true" signature="5182:5210" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jpa/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -2268,17 +2249,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE-sources.jar!/org/springframework/orm/hibernate4/HibernateTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15029">
-          <caret line="871" column="58" selection-start-line="871" selection-start-column="58" selection-end-line="871" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2296,21 +2271,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/hi/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1279#1280#0" expanded="false" />
-            <element signature="e#1394#1395#0" expanded="false" />
-            <element signature="e#2996#2997#0" expanded="false" />
-            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2333,13 +2299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/data/import-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-hibernate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -2352,14 +2311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2380,6 +2331,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#236#237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/spring/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/mb/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -2388,10 +2357,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE-sources.jar!/org/springframework/orm/hibernate4/LocalSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.6.RELEASE/spring-orm-4.2.6.RELEASE-sources.jar!/org/springframework/orm/hibernate4/HibernateTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="616" column="24" selection-start-line="616" selection-start-column="24" selection-end-line="616" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/hi/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#2996#2997#0" expanded="true" />
+            <element signature="e#3075#3076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/jdbc/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1634">
+          <caret line="35" column="96" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
+          <folding>
+            <element signature="e#1020#1402#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <marker date="1482747653626" expanded="true" signature="968:999" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="1593:1624" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="1893:1941" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="2509:2527" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="3169:3194" ph="SELECT COUNT... USER" />
+            <marker date="1482747653626" expanded="true" signature="3372:3390" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="4445:4485" ph="SELECT * FRO... USER" />
+            <marker date="1482747653626" expanded="true" signature="4673:4714" ph="UPDATE USER " />
+            <marker date="1482747653626" expanded="true" signature="4911:4965" ph="INSERT INTO USER... " />
+            <marker date="1482747653626" expanded="true" signature="5182:5210" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/hi/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/sql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <marker date="1483760359861" expanded="true" signature="0:120" ph="CREATE TABLE... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/h2/data/import-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/orm/mb/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="348">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2400,8 +2443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/lhl/testUtils20161216/TestMybatis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+        <state relative-caret-position="234">
+          <caret line="169" column="45" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2410,28 +2453,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/resources/mybatis/User.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="-399">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <marker date="1483699281382" expanded="true" signature="682:741" ph="SELECT FROM USER" />
-            <marker date="1483699281382" expanded="true" signature="682:748" ph="SELECT FROM USER... " />
-            <marker date="1483699281382" expanded="true" signature="876:967" ph="SELECT FROM USER" />
-            <marker date="1483699281382" expanded="true" signature="1094:1159" ph="SELECT FROM USER" />
-            <marker date="1483699281382" expanded="true" signature="1407:1548" ph="SELECT FROM USER" />
-            <marker date="1483699281382" expanded="true" signature="1625:1640" ph="UPDATE USER " />
-            <marker date="1483699281382" expanded="true" signature="1625:1668" ph="UPDATE USER " />
-            <marker date="1483699281382" expanded="true" signature="1791:2095" ph="UPDATE USER " />
-            <marker date="1483699281382" expanded="true" signature="2208:3107" ph="UPDATE USER " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/lhl/utils20161216/bean/jdbc/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
+            <marker date="1483762122309" expanded="true" signature="682:741" ph="SELECT FROM USER" />
+            <marker date="1483762122309" expanded="true" signature="682:748" ph="SELECT FROM USER... " />
+            <marker date="1483762122309" expanded="true" signature="876:967" ph="SELECT FROM USER" />
+            <marker date="1483762122309" expanded="true" signature="1094:1159" ph="SELECT FROM USER" />
+            <marker date="1483762122309" expanded="true" signature="1407:1548" ph="SELECT FROM USER" />
+            <marker date="1483762122309" expanded="true" signature="1625:1640" ph="UPDATE USER " />
+            <marker date="1483762122309" expanded="true" signature="1625:1668" ph="UPDATE USER " />
+            <marker date="1483762122309" expanded="true" signature="1791:2095" ph="UPDATE USER " />
+            <marker date="1483762122309" expanded="true" signature="2208:3125" ph="UPDATE USER " />
+            <marker date="1483762122309" expanded="true" signature="2208:3126" ph="UPDATE USER " />
+            <marker date="1483762122309" expanded="true" signature="3310:3353" ph="INSERT INTO " />
+            <marker date="1483762122309" expanded="true" signature="3310:3421" ph="INSERT INTO " />
+            <marker date="1483762122309" expanded="true" signature="3526:3562" ph="INSERT INTO USER... " />
+            <marker date="1483762122309" expanded="true" signature="3526:3569" ph="INSERT INTO USER... " />
+            <marker date="1483762122309" expanded="true" signature="3854:3902" ph="DELETE FROM " />
+            <marker date="1483762122309" expanded="true" signature="4005:4033" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

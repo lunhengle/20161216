@@ -60,25 +60,49 @@
     <update id="updateUserList" parameterType="java.util.List">
         UPDATE USER
         <trim prefix="set" suffixOverrides=",">
-            <trim prefix="username = case" suffix="end,">
+            <trim prefix="USERNAME = CASE" suffix="end,">
                 <foreach collection="list" item="i" index="index">
                     <if test="i.username!=null">
-                        WHEN USERNAME=#{i.username,jdbcType=VARCHAR}
+                        WHEN ID=#{i.id,jdbcType=VARCHAR}
                         THEN #{i.username}
                     </if>
                 </foreach>
             </trim>
-        </trim>
-        <trim prefix="set" suffixOverrides=",">
-            <trim prefix="password = case" suffix="end,">
+            <trim prefix="PASSWORD = CASE" suffix="end,">
                 <foreach collection="list" item="i" index="index">
                     <if test="i.password!=null">
-                        WHEN PASSWORD=#{i.password,jdbcType=VARCHAR}
+                        WHEN ID=#{i.id,jdbcType=VARCHAR}
                         THEN #{i.password}
                     </if>
                 </foreach>
             </trim>
         </trim>
-        WHERE ID=#{i.id,jdbcType=INTEGER}
+        WHERE
+        <foreach collection="list" item="i" index="index" separator="or">
+            ID =#{i.id,jdbcType=INTEGER}
+        </foreach>
     </update>
+    <!--插入数据-->
+    <insert id="insertUser" parameterType="com.lhl.utils20161216.bean.mb.User" statementType="PREPARED" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO USER (USERNAME,PASSWORD) VALUES
+        (#{username,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR})
+    </insert>
+    <!--批量插入数据-->
+    <insert id="insertUserList" parameterType="java.util.List">
+        INSERT INTO USER (USERNAME,PASSWORD) VALUES
+        <foreach collection="list" index="index" item="item" separator=",">
+            (#{item.username,jdbcType=VARCHAR},#{item.password,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+    <!--删除user-->
+    <delete id="deleteUserById" parameterType="java.lang.Integer">
+        DELETE FROM USER WHERE ID=#{id,javaType=INTEGER}
+    </delete>
+    <!--批量删除-->
+    <delete id="deleteUserList" parameterType="java.util.List">
+        DELETE FROM USER WHERE ID IN
+        <foreach collection="list" index="index" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </delete>
 </mapper>

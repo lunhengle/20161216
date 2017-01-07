@@ -5,7 +5,6 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by lunhengle on 2017/1/5.
@@ -66,4 +65,32 @@ public interface UserDao {
      * @return user列表
      */
     List<User> getUserInIds(List list);
+
+    /**
+     * 更新user.
+     *
+     * @param user 更新user
+     */
+    void insertUser(User user);
+
+    /**
+     * 批量插入用户数据.
+     *
+     * @param list list user
+     */
+    void insertUserList(List<User> list);
+
+    /**
+     * 根据id删除.
+     *
+     * @param id id
+     */
+    void deleteUserById(int id);
+
+    /**
+     * 批量删除.
+     *
+     * @param list 列表
+     */
+    void deleteUserList(List list);
 }
