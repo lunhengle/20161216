@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="api" />
         <module name="base" />
+        <module name="security" />
         <module name="utils" />
         <module name="webservice" />
       </profile>
@@ -32,6 +33,7 @@
       <module name="20161216" target="1.7" />
       <module name="api" target="1.7" />
       <module name="base" target="1.7" />
+      <module name="security" target="1.7" />
       <module name="utils" target="1.7" />
       <module name="webservice" target="1.7" />
     </bytecodeTargetLevel>
