@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd">
-    <security:http security="none" pattern="WEB-INF/views/login.jsp"/>
-    <security:http auto-config="true">
-        <security:form-login login-page="/views/login.jsp" login-processing-url="login.do" username-parameter="username"/>
-        <security:logout logout-success-url="/views/login.jsp" logout-url="/views/login.jsp"/>
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+    <!--配置忽略的资源-->
+    <security:http pattern="/" security="none"/>
+    <security:http pattern="/loginPage" security="none"/>
+    <security:http pattern="/images/**" security="none"/>
+    <security:http pattern="/scripts/**" security="none"/>
+    <security:http pattern="/styles/**" security="none"/>
+    <security:http pattern="/favicon.ico" security="none"/>
+    <!--配置登陆-->
+    <security:http auto-config="true" use-expressions="true">
         <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')"/>
+        <security:form-login login-page="/loginPage" login-processing-url="/login" always-use-default-target="true" default-target-url="/home" username-parameter="username"
+                             password-parameter="password"
+                             authentication-failure-url="/loginPage?error=error"/>
+        <security:csrf disabled="true"/>
     </security:http>
-    <security:authentication-manager>
+    <!--配置认证管理器-->
+    <security:authentication-manager alias="authenticationManager">
         <security:authentication-provider>
             <security:user-service>
                 <security:user name="user" password="user" authorities="ROLE_USER"/>
-                <security:user name="admin" password="admin" authorities="ROLE_USER,ROLE_ADMIN"/>
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
-
 </beans>
