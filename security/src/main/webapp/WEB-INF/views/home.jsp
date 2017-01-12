@@ -11,6 +11,6 @@
     <title>欢迎来到主页</title>
 </head>
 <body>
-主页
+主页<a href="/logout.do">退出系统</a>
 </body>
 </html>

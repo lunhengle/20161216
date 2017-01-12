@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lhl.orm20161216.orm.mb.UserDao">
+    <!--配置映射-->
+    <resultMap id="baseResultMap" type="com.lhl.orm20161216.bean.mb.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <id column="username" property="username" jdbcType="VARCHAR"/>
+        <id column="password" property="password" jdbcType="VARCHAR"/>
+    </resultMap>
+    <!--基本sql-->
+    <sql id="baseSql">
+        ID,USERNAME,PASSWORD
+    </sql>
+    <!--得到用户list-->
+    <select id="getUserList" resultMap="baseResultMap">
+        SELECT
+        <include refid="baseSql"/>
+        FROM USER
+    </select>
+    <!--根据用户id获取用户-->
+    <select id="getUserById" resultMap="baseResultMap" parameterType="java.lang.Integer">
+        SELECT
+        <include refid="baseSql"/>
+        FROM USER WHERE ID=#{ID,jdbcType=INTEGER}
+    </select>
+    <!--用户in-->
+    <select id="getUserInIds" resultMap="baseResultMap" parameterType="java.util.List">
+        SELECT
+        <include refid="baseSql"/>
+        FROM USER WHERE ID IN
+        <foreach collection="list" open="(" close=")" separator="," item="i" index="index">
+            #{i}
+        </foreach>
+    </select>
+    <!--根据id和用户名获取用户-->
+    <select id="getUserByIdAndUsername" resultMap="baseResultMap">
+        SELECT
+        <include refid="baseSql"/>
+        FROM USER
+        WHERE ID=#{ID,jdbcType=INTEGER} AND USERNAME=#{USERNAME,jdbcType=VARCHAR}
+    </select>
+    <!--根据id更新用户名-->
+    <update id="updateUserById">
+        UPDATE USER SET USERNAME=#{0} WHERE ID=#{1}
+    </update>
+    <!--更新User对象-->
+    <update id="updateUser" parameterType="com.lhl.orm20161216.bean.mb.User">
+        UPDATE USER
+        <set>
+            <if test="username!=null">
+                USERNAME=#{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password!=null">
+                PASSWORD =#{password,jdbcType=VARCHAR}
+            </if>
+        </set>
+        WHERE ID=#{id,jdbcType=VARCHAR}
+    </update>
+    <!--更新list user 对象-->
+    <update id="updateUserList" parameterType="java.util.List">
+        UPDATE USER
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix="USERNAME = CASE" suffix="end,">
+                <foreach collection="list" item="i" index="index">
+                    <if test="i.username!=null">
+                        WHEN ID=#{i.id,jdbcType=VARCHAR}
+                        THEN #{i.username}
+                    </if>
+                </foreach>
+            </trim>
+            <trim prefix="PASSWORD = CASE" suffix="end,">
+                <foreach collection="list" item="i" index="index">
+                    <if test="i.password!=null">
+                        WHEN ID=#{i.id,jdbcType=VARCHAR}
+                        THEN #{i.password}
+                    </if>
+                </foreach>
+            </trim>
+        </trim>
+        WHERE
+        <foreach collection="list" item="i" index="index" separator="or">
+            ID =#{i.id,jdbcType=INTEGER}
+        </foreach>
+    </update>
+    <!--插入数据-->
+    <insert id="insertUser" parameterType="com.lhl.orm20161216.bean.mb.User" statementType="PREPARED" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO USER (USERNAME,PASSWORD) VALUES
+        (#{username,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR})
+    </insert>
+    <!--批量插入数据-->
+    <insert id="insertUserList" parameterType="java.util.List">
+        INSERT INTO USER (USERNAME,PASSWORD) VALUES
+        <foreach collection="list" index="index" item="item" separator=",">
+            (#{item.username,jdbcType=VARCHAR},#{item.password,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+    <!--删除user-->
+    <delete id="deleteUserById" parameterType="java.lang.Integer">
+        DELETE FROM USER WHERE ID=#{id,javaType=INTEGER}
+    </delete>
+    <!--批量删除-->
+    <delete id="deleteUserList" parameterType="java.util.List">
+        DELETE FROM USER WHERE ID IN
+        <foreach collection="list" index="index" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </delete>
+</mapper>

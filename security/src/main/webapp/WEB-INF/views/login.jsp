@@ -12,7 +12,7 @@
     <title>登陆页面</title>
 </head>
 <body>
-<form action="/login" method="post">
+<form action="/login.do" method="post">
     <table>
         <tr>
             <td>用户名：</td>

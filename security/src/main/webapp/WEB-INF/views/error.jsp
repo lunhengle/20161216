@@ -11,6 +11,6 @@
     <title>错误页面</title>
 </head>
 <body>
-错误页面!
+错误页面!<br>${sessionScope['SPRING_SECURITY_LAST_EXCEPTION'].message}
 </body>
 </html>

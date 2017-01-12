@@ -14,6 +14,7 @@
         <module>api</module>
         <module>webservice</module>
         <module>security</module>
+        <module>orm</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
