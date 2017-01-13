@@ -12,6 +12,7 @@
     <title>登陆页面</title>
 </head>
 <body>
+<h2>${sessionScope['SPRING_SECURITY_LAST_EXCEPTION'].message}</h2>
 <form action="/login.do" method="post">
     <table>
         <tr>

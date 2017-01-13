@@ -27,7 +27,7 @@ public class LoginController {
     public String login(@RequestParam(value = "error", required = false) String error) {
         logger.info("登陆操作!");
         if (error != null) {
-            return "error";
+            return "login";
         }
         return "login";
     }

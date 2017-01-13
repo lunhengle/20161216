@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
     <!--配置忽略的资源-->
     <security:http pattern="/loginPage.do" security="none"/>
     <security:http pattern="/images/**" security="none"/>
@@ -9,24 +10,40 @@
     <security:http pattern="/styles/**" security="none"/>
     <security:http pattern="/favicon.ico" security="none"/>
     <!--配置登陆和退出-->
-    <security:http auto-config="true" use-expressions="true">
+    <security:http use-expressions="true" authentication-manager-ref="authenticationManager">
         <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')"/>
-        <!--登陆操作-->
         <security:form-login login-page="/loginPage.do"
                              login-processing-url="/login.do"
-                             always-use-default-target="true"
-                             default-target-url="/homePage.do"
                              username-parameter="username"
                              password-parameter="password"
-                             authentication-failure-url="/loginPage.do?error=error"/>
+                             authentication-success-handler-ref="loginSuccessHandler"
+                             authentication-failure-handler-ref="loginFailureHandler"/>
+        <!--登陆操作-->
         <!--退出操作-->
-        <security:logout delete-cookies="true" invalidate-session="true" logout-url="/logout.do" logout-success-url="/"/>
+        <security:logout delete-cookies="true" invalidate-session="true" logout-url="/logout.do" logout-success-url="/loginPage.do"/>
+        <!--禁用csrf-->
         <security:csrf disabled="true"/>
     </security:http>
     <!--配置认证管理器-->
-    <security:authentication-manager alias="myAuthenticationManager">
+    <security:authentication-manager alias="authenticationManager">
         <security:authentication-provider user-service-ref="userDetailService">
         </security:authentication-provider>
     </security:authentication-manager>
+    <!--用户信息-->
     <bean id="userDetailService" class="com.lhl.security20161216.service.UserDetailServiceImpl"/>
+    <!--定制登陆过滤器 start-->
+    <!--登陆成功处理-->
+    <bean id="loginSuccessHandler" class="com.lhl.security20161216.service.LoginSuccessHandler">
+        <property name="defaultTargetUrl" value="/homePage.do"/>
+        <property name="alwaysUseDefaultTargetUrl" value="true"/>
+    </bean>
+    <!--登陆失败处理-->
+    <bean id="loginFailureHandler" class="com.lhl.security20161216.service.LoginFailureHandler">
+        <property name="defaultFailureUrl" value="/loginPage.do"/>
+    </bean>
+    <!--定制登陆过滤器 end-->
+    <!--自定义消息类型-->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basename" value="classpath:org/springframework/security/messages"/>
+    </bean>
 </beans>
