@@ -1,6 +1,11 @@
 package com.lhl.security20161216.dao;
 
+import com.lhl.security20161216.bean.Resource;
+import com.lhl.security20161216.bean.Role;
 import com.lhl.security20161216.bean.User;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by lunhengle on 2017/1/11.
@@ -15,11 +20,27 @@ public interface UserDao {
     User getUserByUsername(String username);
 
     /**
-     * 根据id 获取用户.
+     * 根据用户名获取用户角色.
      *
-     * @param id 用户id
-     * @return 用户
+     * @param username 用户名
+     * @return 用户角色
      */
-    User getUserById(int id);
+    List<Role> getRolesByUsername(String username);
+
+    /**
+     * 根据用户名获取用户资源.
+     *
+     * @param username 用户名
+     * @return 用户资源
+     */
+    List<Resource> getResourcesByUsername(String username);
+
+    /**
+     * 获取所有角色权限.
+     *
+     * @return 角色权限
+     */
+    List<Map<String, Object>> getRoleResources();
+
 
 }

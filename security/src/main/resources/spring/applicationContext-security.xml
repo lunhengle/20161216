@@ -10,40 +10,52 @@
     <security:http pattern="/styles/**" security="none"/>
     <security:http pattern="/favicon.ico" security="none"/>
     <!--配置登陆和退出-->
-    <security:http use-expressions="true" authentication-manager-ref="authenticationManager">
-        <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')"/>
+    <security:http use-expressions="true">
+        <security:intercept-url pattern="/admin/*" access="hasRole('ROLE_ADMIN')"/>
+        <security:intercept-url pattern="/*" access="hasRole('ROLE_USER') or hasRole('ROLE_ADMIN')"/>
         <security:form-login login-page="/loginPage.do"
                              login-processing-url="/login.do"
                              username-parameter="username"
                              password-parameter="password"
                              authentication-success-handler-ref="loginSuccessHandler"
                              authentication-failure-handler-ref="loginFailureHandler"/>
-        <!--登陆操作-->
         <!--退出操作-->
         <security:logout delete-cookies="true" invalidate-session="true" logout-url="/logout.do" logout-success-url="/loginPage.do"/>
         <!--禁用csrf-->
         <security:csrf disabled="true"/>
+        <security:custom-filter ref="myFilterSecurityInterceptor" before="FILTER_SECURITY_INTERCEPTOR"/>
     </security:http>
-    <!--配置认证管理器-->
+    <!--配置安全过滤-->
+    <bean id="myFilterSecurityInterceptor" class="com.lhl.security20161216.service.MyFilterSecurityInterceptor">
+        <property name="authenticationManager" ref="authenticationManager"/>
+    </bean>
+    <!--配置用户认证管理器-->
     <security:authentication-manager alias="authenticationManager">
         <security:authentication-provider user-service-ref="userDetailService">
         </security:authentication-provider>
     </security:authentication-manager>
     <!--用户信息-->
-    <bean id="userDetailService" class="com.lhl.security20161216.service.UserDetailServiceImpl"/>
+    <bean id="userDetailService" class="com.lhl.security20161216.service.MyUserDetailService"/>
     <!--定制登陆过滤器 start-->
     <!--登陆成功处理-->
-    <bean id="loginSuccessHandler" class="com.lhl.security20161216.service.LoginSuccessHandler">
+    <bean id="loginSuccessHandler" class="com.lhl.security20161216.service.MyLoginSuccessHandler">
         <property name="defaultTargetUrl" value="/homePage.do"/>
         <property name="alwaysUseDefaultTargetUrl" value="true"/>
     </bean>
     <!--登陆失败处理-->
-    <bean id="loginFailureHandler" class="com.lhl.security20161216.service.LoginFailureHandler">
+    <bean id="loginFailureHandler" class="com.lhl.security20161216.service.MyLoginFailureHandler">
         <property name="defaultFailureUrl" value="/loginPage.do"/>
     </bean>
     <!--定制登陆过滤器 end-->
     <!--自定义消息类型-->
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="classpath:org/springframework/security/messages"/>
+        <property name="basenames">
+            <array>
+                <value>classpath:properties/messages/messages</value>
+                <!--spring security 默认的提示信息-->
+                <value>classpath:org/springframework/security/messages</value>
+            </array>
+        </property>
+
     </bean>
 </beans>

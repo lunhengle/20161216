@@ -14,8 +14,8 @@ import java.io.IOException;
  * Created by lunhengle on 2017/1/12.
  * 登陆失败
  */
-public class LoginFailureHandler extends SimpleUrlAuthenticationFailureHandler {
-    private static final Logger logger = LoggerFactory.getLogger(LoginFailureHandler.class);
+public class MyLoginFailureHandler extends SimpleUrlAuthenticationFailureHandler {
+    private static final Logger logger = LoggerFactory.getLogger(MyLoginFailureHandler.class);
 
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {
         logger.info("登陆失败，异常信息>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + exception.getLocalizedMessage());

@@ -42,4 +42,5 @@ public class LoginController {
         logger.info("首页!");
         return "home";
     }
+
 }

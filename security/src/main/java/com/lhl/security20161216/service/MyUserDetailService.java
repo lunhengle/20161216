@@ -1,5 +1,6 @@
 package com.lhl.security20161216.service;
 
+import com.lhl.security20161216.bean.Role;
 import com.lhl.security20161216.bean.User;
 import com.lhl.security20161216.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +14,10 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Created by lunhengle on 2017/1/11.
  * 登陆校验
+ * Created by lunhengle on 2017/1/11.
  */
-public class UserDetailServiceImpl implements UserDetailsService {
+public class MyUserDetailService implements UserDetailsService {
     @Autowired
     private UserDao userDao;
 
@@ -26,26 +27,44 @@ public class UserDetailServiceImpl implements UserDetailsService {
         final String username = user.getUsername();
         final String password = user.getPassword();
         final int enabled = user.getEnabled();
+        List<Role> roleList = userDao.getRolesByUsername(s);
+        /**
+         * 用户的权限列表.
+         */
         final List<GrantedAuthority> grantedAuthorities = new ArrayList<>();
-        GrantedAuthority grantedAuthority = new GrantedAuthority() {
-            @Override
-            public String getAuthority() {
-                return "ROLE_USER";
-            }
-        };
-        grantedAuthorities.add(grantedAuthority);
+        for (final Role role : roleList) {
+            GrantedAuthority grantedAuthority = new GrantedAuthority() {
+                @Override
+                public String getAuthority() {
+                    return role.getRole();
+                }
+            };
+            grantedAuthorities.add(grantedAuthority);
+        }
 
         return new UserDetails() {
+            /**
+             * 当前用户所有的权限列表.
+             * @return 用户权限列表
+             */
             @Override
             public Collection<? extends GrantedAuthority> getAuthorities() {
                 return grantedAuthorities;
             }
 
+            /**
+             * 密码.
+             * @return 密码
+             */
             @Override
             public String getPassword() {
                 return password;
             }
 
+            /**
+             * 账号.
+             * @return 账号
+             */
             @Override
             public String getUsername() {
                 return username;

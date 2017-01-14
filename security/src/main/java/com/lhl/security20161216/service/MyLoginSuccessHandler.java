@@ -15,11 +15,11 @@ import java.io.IOException;
  * Created by lunhengle on 2017/1/12.
  * 登陆成功.
  */
-public class LoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
+public class MyLoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
     /**
      * 定义日志.
      */
-    private static final Logger logger = LoggerFactory.getLogger(LoginSuccessHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(MyLoginSuccessHandler.class);
 
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws ServletException, IOException {
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();

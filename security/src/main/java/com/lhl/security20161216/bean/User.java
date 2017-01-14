@@ -1,6 +1,7 @@
 package com.lhl.security20161216.bean;
 
 /**
+ * 用户表.
  * Created by lunhengle on 2017/1/11.
  */
 public class User {
