@@ -4,6 +4,7 @@ import com.lhl.security20161216.bean.Role;
 import com.lhl.security20161216.bean.User;
 import com.lhl.security20161216.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -24,10 +25,16 @@ public class MyUserDetailService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         User user = userDao.getUserByUsername(s);
+        if (user == null) {
+            throw new AuthenticationServiceException("当前账号不存在！");
+        }
         final String username = user.getUsername();
         final String password = user.getPassword();
         final int enabled = user.getEnabled();
         List<Role> roleList = userDao.getRolesByUsername(s);
+        if (roleList == null || roleList.size() == 0) {
+            throw new AuthenticationServiceException("未给当前账号指定角色！");
+        }
         /**
          * 用户的权限列表.
          */

@@ -32,17 +32,18 @@ public class UserDaoImpl implements UserDao {
      */
     @Override
     public User getUserByUsername(String username) {
-        return jdbcTemplate.queryForObject("SELECT ID,USERNAME,PASSWORD,ENABLED FROM USER WHERE USERNAME = ?", new Object[]{username}, new RowMapper<User>() {
-            @Override
-            public User mapRow(ResultSet rs, int rowNum) throws SQLException {
-                User user = new User();
-                user.setId(rs.getInt("ID"));
-                user.setUsername(rs.getString("USERNAME"));
-                user.setPassword(rs.getString("PASSWORD"));
-                user.setEnabled(rs.getInt("ENABLED"));
-                return user;
-            }
-        });
+        final String sql = "SELECT ID,USERNAME,PASSWORD,ENABLED FROM USER WHERE USERNAME = ?";
+        List<Map<String, Object>> list = jdbcTemplate.queryForList(sql, new Object[]{username});
+        User user = null;
+        if (list != null && list.size() > 0) {
+            Map<String, Object> map = list.get(0);
+            user = new User();
+            user.setId((Integer) map.get("ID"));
+            user.setUsername((String) map.get("USERNAME"));
+            user.setPassword((String) map.get("PASSWORD"));
+            user.setEnabled((Integer) map.get("ENABLED"));
+        }
+        return user;
     }
 
     /**

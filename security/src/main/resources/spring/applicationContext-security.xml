@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security" xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
     <!--配置忽略的资源-->
     <security:http pattern="/loginPage.do" security="none"/>
     <security:http pattern="/images/**" security="none"/>
@@ -31,11 +31,21 @@
     </bean>
     <!--配置用户认证管理器-->
     <security:authentication-manager alias="authenticationManager">
-        <security:authentication-provider user-service-ref="userDetailService">
-        </security:authentication-provider>
+        <security:authentication-provider ref="authenticationProvider"/>
     </security:authentication-manager>
+    <!--认证-->
+    <bean id="authenticationProvider" class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+        <property name="hideUserNotFoundExceptions" value="false"/>
+        <property name="userDetailsService" ref="userDetailService"/>
+        <property name="messageSource" ref="messageSource"/>
+        <property name="passwordEncoder" ref="standardPasswordEncoder"/>
+    </bean>
     <!--用户信息-->
     <bean id="userDetailService" class="com.lhl.security20161216.service.MyUserDetailService"/>
+    <!--用户密码-->
+    <bean id="standardPasswordEncoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder">
+        <constructor-arg value="#{base['encrypt.key']}"/>
+    </bean>
     <!--定制登陆过滤器 start-->
     <!--登陆成功处理-->
     <bean id="loginSuccessHandler" class="com.lhl.security20161216.service.MyLoginSuccessHandler">
@@ -51,7 +61,7 @@
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basenames">
             <array>
-                <value>classpath:properties/messages/messages</value>
+                <value>classpath:properties/messages</value>
                 <!--spring security 默认的提示信息-->
                 <value>classpath:org/springframework/security/messages</value>
             </array>
