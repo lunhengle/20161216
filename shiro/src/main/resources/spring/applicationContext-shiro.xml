@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置自定义realm-->
+    <bean id="myRealm" class="com.lhl.shiro20161216.service.MyRealm"/>
+    <!--配置安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"/>
+    </bean>
+    <!--shiro过滤器-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--shiro 核心安全接口-->
+        <property name="securityManager" ref="securityManager"/>
+        <!--登陆界面地址-->
+        <property name="loginUrl" value="/loginPage.do"/>
+        <!--用户访问未对其授权的资源时，跳转到登陆页面-->
+        <property name="unauthorizedUrl" value="/loginPage.do"/>
+        <!--shiro 链接约束配置 过滤连的定义-->
+        <property name="filterChainDefinitions">
+            <value>
+                /loginPage.do=anon
+                /login.do=anon
+                /logout.do=logout
+            </value>
+        </property>
+    </bean>
+    <!--shiro 生命周期处理器-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+</beans>

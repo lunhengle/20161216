@@ -3,17 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:jdbc="http://www.springframework.org/schema/jdbc"
-       xmlns:util="http://www.springframework.org/schema/util"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
     <!--配置扫描包-->
-    <context:component-scan base-package="com.lhl.security20161216.service.**,com.lhl.security20161216.dao.**"/>
-    <!--配置文件加载-->
-    <util:properties id="base" location="classpath:properties/base.properties"/>
+    <context:component-scan base-package="com.lhl.shiro20161216.dao,com.lhl.shiro20161216.service"/>
+    <!--配置数据源-->
     <!--配置数据源-->
     <jdbc:embedded-database id="dataSource" type="H2">
         <jdbc:script location="classpath:h2/sql/schema.sql" encoding="UTF-8"/>
         <jdbc:script location="classpath:h2/data/import-data.sql" encoding="UTF-8"/>
     </jdbc:embedded-database>
+    <!--配置jdbc模板类-->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"/>
     </bean>
