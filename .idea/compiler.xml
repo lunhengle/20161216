@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="base" />
+        <module name="lucene" />
         <module name="orm" />
         <module name="security" />
         <module name="shiro" />
@@ -15,10 +16,11 @@
         <module name="webservice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="20161216" target="1.7" />
       <module name="api" target="1.7" />
       <module name="base" target="1.7" />
+      <module name="lucene" target="1.7" />
       <module name="orm" target="1.7" />
       <module name="security" target="1.7" />
       <module name="shiro" target="1.7" />
