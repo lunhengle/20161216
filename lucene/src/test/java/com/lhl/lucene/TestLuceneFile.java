@@ -201,6 +201,15 @@ public class TestLuceneFile {
         indexWriter.close();
     }
 
+    /**
+     * 存储成文档.
+     *
+     * @param indexWriter 写入
+     * @param id          id
+     * @param title       标题
+     * @param content     内容
+     * @throws IOException 异常信息
+     */
     private void storeDocument(IndexWriter indexWriter, final String id, final String title, final String content) throws IOException {
         Term term = new Term("id", id);
         /**
